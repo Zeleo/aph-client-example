@@ -6,7 +6,7 @@ This is very simple- you should be able to build this tool by making sure you Gr
 
 ```bash
 gradle
-```bash
+```
 
 Two jars will be in build/libs:
 
