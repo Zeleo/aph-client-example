@@ -55,7 +55,7 @@ Usage: <main class> [options]
     -D
        The key/value parameters for the json body of the request.
        Syntax: -Dkey=value
-       Default: {axisEvent=NewEvent, axisMember=TM111}
+       Default: {axisEvent=NewEvent, axisMember=<removed for security>}
 ```
 
 To call the generic endpoint, for instance, the following command (with the sensitve data ommitted for security) should be executed:
