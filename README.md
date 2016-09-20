@@ -1,4 +1,4 @@
-# Example COmmand Line Client for APH Adapter
+# Example Command Line Client for APH Adapter
 
 ## Build
 
