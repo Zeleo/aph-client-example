@@ -54,6 +54,7 @@ dependencies {
     compile 'org.apache.directory.studio:org.apache.commons.io:2.4'
     compile 'commons-beanutils:commons-beanutils:1.9.2'
     compile 'commons-dbutils:commons-dbutils:1.6'
+    compile 'org.apache.httpcomponents:httpclient:4.5'
     
     /////////////////////////////////////////////////////////////////////////
     //                                Jackson                              //
@@ -65,6 +66,9 @@ dependencies {
     compile 'com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider:2.7.5'
     compile 'com.fasterxml.uuid:java-uuid-generator:3.1.4'
     compile 'com.fasterxml.jackson.module:jackson-module-jsonSchema:2.7.5'
+
+    compile 'org.jboss.logmanager:log4j-jboss-logmanager:1.1.0.Final'
+    compile 'org.apache.directory.studio:org.slf4j.log4j12:1.7.2'
     
     // Cryptography
     compile 'org.bouncycastle:bcprov-jdk15on:1.54'
