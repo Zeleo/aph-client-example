@@ -79,7 +79,7 @@ public class APHClientExecutor {
             System.out.println("Status: " + Integer.toString(response.getStatus()));
             System.out.println("Status Info: " + response.getStatusInfo());
             System.out.println("Response: " + JSONUtils.toJSON(response.getEntity()));
-            System.out.println("/n");
+            System.out.println("\n");
 		}
 		catch(Exception ex) {
 			ex.printStackTrace();
