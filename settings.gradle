@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'aph-example'
+rootProject.name = 'aph-client-example'
