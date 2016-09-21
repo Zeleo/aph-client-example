@@ -78,7 +78,9 @@ public class APHClientExecutor {
             
             System.out.println("Status: " + Integer.toString(response.getStatus()));
             System.out.println("Status Info: " + response.getStatusInfo());
-            System.out.println("Response: " + JSONUtils.toJSON(response.getEntity()));
+            if(response.hasEntity()) {
+            	System.out.println("Response: " + response.readEntity(String.class));
+            }
             System.out.println("\n");
 		}
 		catch(Exception ex) {

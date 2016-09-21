@@ -18,7 +18,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath "us.kirchmeier:gradle-capsule-plugin:1.0.0"
+    classpath "us.kirchmeier:gradle-capsule-plugin:1.0.1"
   }
 }
 
@@ -83,6 +83,10 @@ dependencies {
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 defaultTasks=['finalJar']
+
+tasks.withType(JavaCompile) { 
+    options.encoding = 'UTF-8'
+}
 
 task finalJar(type: FatCapsule) {
     applicationClass 'com.bjond.aph.client.APHClient'
